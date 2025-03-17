@@ -1,0 +1,661 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Electronics",
+      "slug": "electronics",
+      "description": "Latest and greatest electronic devices",
+      "image": "/images/categories/electronics.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Fashion",
+      "slug": "fashion",
+      "description": "Trending clothing, shoes and accessories",
+      "image": "/images/categories/fashion.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Home & Garden",
+      "slug": "home-garden",
+      "description": "Everything for your home and garden",
+      "image": "/images/categories/home-garden.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Sports & Outdoors",
+      "slug": "sports",
+      "description": "Gear for sports and outdoor activities",
+      "image": "/images/categories/sports.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Toys & Games",
+      "slug": "toys-games",
+      "description": "Fun toys and games for all ages",
+      "image": "/images/categories/toys-games.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Computers & Accessories",
+      "slug": "computers",
+      "description": "Computers, laptops, and accessories",
+      "image": "/images/categories/computers.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Beauty & Personal Care",
+      "slug": "beauty",
+      "description": "Beauty products and personal care items",
+      "image": "/images/categories/beauty.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Automotive",
+      "slug": "automotive",
+      "description": "Auto parts, tools, and accessories",
+      "image": "/images/categories/automotive.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "userId": "3",
+      "items": [
+        {
+          "productId": "1",
+          "quantity": 1,
+          "price": 999
+        },
+        {
+          "productId": "3",
+          "quantity": 2,
+          "price": 150
+        }
+      ],
+      "totalAmount": 1299,
+      "shippingAddress": {
+        "name": "Buyer User",
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "10001",
+        "country": "USA"
+      },
+      "paymentMethod": "Credit Card",
+      "paymentStatus": "Paid",
+      "orderStatus": "Delivered",
+      "createdAt": "2024-04-10T00:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "userId": "3",
+      "items": [
+        {
+          "productId": "5",
+          "quantity": 1,
+          "price": 499.99
+        }
+      ],
+      "totalAmount": 499.99,
+      "shippingAddress": {
+        "name": "Buyer User",
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "10001",
+        "country": "USA"
+      },
+      "paymentMethod": "PayPal",
+      "paymentStatus": "Paid",
+      "orderStatus": "Shipped",
+      "createdAt": "2024-04-15T00:00:00.000Z"
+    },
+    {
+      "id": "0caa7291-c968-49de-92c7-2a6fb34d2cd2",
+      "userId": "1",
+      "items": [
+        {
+          "productId": "9",
+          "quantity": 2,
+          "price": 881.1
+        }
+      ],
+      "totalAmount": 1762.2,
+      "shippingAddress": {
+        "name": "Admin User",
+        "street": "California",
+        "city": "Cali",
+        "state": "Cali",
+        "zipCode": "1223333",
+        "country": "USA"
+      },
+      "paymentMethod": "Credit Card",
+      "paymentStatus": "Pending",
+      "orderStatus": "Processing",
+      "createdAt": "2025-03-16T06:27:24.542Z"
+    },
+    {
+      "id": "ec317aa2-7d8d-44d0-8780-8bf29aa822cb",
+      "userId": "1742151854680",
+      "items": [
+        {
+          "productId": "1",
+          "quantity": 1,
+          "price": 999
+        }
+      ],
+      "totalAmount": 999,
+      "shippingAddress": {
+        "name": "le van an",
+        "street": "aaaaaaaaaaaaaaa",
+        "city": "aaaaaaaaaaaa",
+        "state": "aaaaaaaaaaaaaa",
+        "zipCode": "aaaaaaaaaaaa",
+        "country": "Mexico"
+      },
+      "paymentMethod": "PayPal",
+      "paymentStatus": "Pending",
+      "orderStatus": "Processing",
+      "createdAt": "2025-03-16T19:12:08.859Z"
+    },
+    {
+      "id": "25c13579-467b-4cf4-8ab9-51f261aa332b",
+      "userId": "1742153013344",
+      "items": [
+        {
+          "productId": "1",
+          "quantity": 1,
+          "price": 999
+        }
+      ],
+      "totalAmount": 999,
+      "shippingAddress": {
+        "name": "HE186705 Le Van An",
+        "street": "aaaaaaaaaaaaaaa",
+        "city": "aaaaaaaaaaaa",
+        "state": "aaaaaaaaaaaaaa",
+        "zipCode": "aaaaaaaaaaaa",
+        "country": "Mexico"
+      },
+      "paymentMethod": "PayPal",
+      "paymentStatus": "Pending",
+      "orderStatus": "Processing",
+      "createdAt": "2025-03-16T19:50:30.239Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "iPhone 15 Pro Max",
+      "description": "The latest iPhone with A17 Pro chip, 48MP camera system, and up to 1TB storage.",
+      "price": 999,
+      "discountPercentage": 0,
+      "rating": 4.8,
+      "stock": 50,
+      "brand": "Apple",
+      "categoryId": "1",
+      "sellerId": "2",
+      "thumbnail": "/images/products/iphone-15-pro.jpg",
+      "images": [
+        "/images/products/iphone-15-pro-1.jpg",
+        "/images/products/iphone-15-pro-2.jpg",
+        "/images/products/iphone-15-pro-3.jpg"
+      ],
+      "features": [
+        "A17 Pro chip for unprecedented performance",
+        "48MP camera with 4x optical zoom",
+        "Titanium design, stronger and lighter",
+        "All-day battery life",
+        "iOS 17 with new features and capabilities"
+      ],
+      "specifications": {
+        "display": "6.7-inch Super Retina XDR display",
+        "processor": "A17 Pro chip",
+        "storage": "256GB",
+        "camera": "48MP main, 12MP ultrawide, 12MP telephoto",
+        "battery": "Up to 29 hours video playback",
+        "dimensions": "159.9 x 76.7 x 8.25 mm",
+        "weight": "221 grams"
+      },
+      "createdAt": "2024-03-01T10:30:00.000Z"
+    },
+    {
+      "id": "2",
+      "title": "Samsung Galaxy S24 Ultra",
+      "description": "The ultimate smartphone with Snapdragon 8 Gen 3, 200MP camera, and S Pen functionality.",
+      "price": 1199.99,
+      "discountPercentage": 8,
+      "rating": 4.7,
+      "stock": 40,
+      "brand": "Samsung",
+      "categoryId": "1",
+      "sellerId": "2",
+      "thumbnail": "https://didongviet.vn/dchannel/wp-content/uploads/2025/01/s25-image-bia-1068x601.jpg",
+      "images": [
+        "https://didongviet.vn/dchannel/wp-content/uploads/2025/01/s25-image-bia-1068x601.jpg",
+        "https://didongviet.vn/dchannel/wp-content/uploads/2025/01/s25-image-bia-1068x601.jpg",
+        "https://didongviet.vn/dchannel/wp-content/uploads/2025/01/s25-image-bia-1068x601.jpg"
+      ],
+      "features": [
+        "Snapdragon 8 Gen 3 for Galaxy",
+        "200MP main camera with 100x Space Zoom",
+        "Built-in S Pen for notes and drawing",
+        "Galaxy AI features",
+        "Large 5,000 mAh battery"
+      ],
+      "specifications": {
+        "display": "6.8-inch QHD+ Dynamic AMOLED 2X",
+        "processor": "Snapdragon 8 Gen 3",
+        "storage": "512GB",
+        "camera": "200MP main, 12MP ultrawide, 10MP telephoto, 50MP telephoto",
+        "battery": "5,000 mAh",
+        "dimensions": "162.3 x 79.0 x 8.6mm",
+        "weight": "232 grams"
+      },
+      "createdAt": "2024-03-05T14:22:00.000Z"
+    },
+    {
+      "id": "3",
+      "title": "Sony WH-1000XM5 Wireless Headphones",
+      "description": "Industry-leading noise cancellation headphones with exceptional sound quality and long battery life.",
+      "price": 299.99,
+      "discountPercentage": 10,
+      "rating": 4.9,
+      "stock": 75,
+      "brand": "Sony",
+      "categoryId": "1",
+      "sellerId": "2",
+      "thumbnail": "/images/products/sony-wh1000xm5.jpg",
+      "images": [
+        "/images/products/sony-wh1000xm5-1.jpg",
+        "/images/products/sony-wh1000xm5-2.jpg",
+        "/images/products/sony-wh1000xm5-3.jpg"
+      ],
+      "features": [
+        "Industry-leading noise cancellation",
+        "Crystal clear calls with 8 microphones",
+        "Up to 30-hour battery life",
+        "Lightweight design with soft fit leather",
+        "Multipoint connection for simultaneous devices"
+      ],
+      "specifications": {
+        "type": "Over-ear wireless headphones",
+        "driver": "30mm",
+        "batteryLife": "30 hours (NC on)",
+        "connectivity": "Bluetooth 5.2, 3.5mm cable",
+        "weight": "250 grams"
+      },
+      "createdAt": "2024-02-14T09:15:00.000Z"
+    },
+    {
+      "id": "4",
+      "title": "MacBook Pro 16\" M3 Max",
+      "description": "The most powerful MacBook Pro ever with M3 Max chip, stunning Liquid Retina XDR display, and all-day battery life.",
+      "price": 2999,
+      "discountPercentage": 5,
+      "rating": 4.8,
+      "stock": 25,
+      "brand": "Apple",
+      "categoryId": "6",
+      "sellerId": "2",
+      "thumbnail": "/images/products/macbook-pro-m3.jpg",
+      "images": [
+        "/images/products/macbook-pro-m3-1.jpg",
+        "/images/products/macbook-pro-m3-2.jpg",
+        "/images/products/macbook-pro-m3-3.jpg"
+      ],
+      "features": [
+        "M3 Max chip with 16-core CPU and 40-core GPU",
+        "16\" Liquid Retina XDR display",
+        "Up to 128GB unified memory",
+        "Up to 8TB SSD storage",
+        "Up to 22 hours of battery life"
+      ],
+      "specifications": {
+        "processor": "M3 Max",
+        "memory": "64GB unified memory",
+        "storage": "2TB SSD",
+        "display": "16-inch Liquid Retina XDR",
+        "ports": "3x Thunderbolt 4, HDMI, SDXC, MagSafe 3",
+        "batteryLife": "Up to 22 hours"
+      },
+      "createdAt": "2024-02-20T11:45:00.000Z"
+    },
+    {
+      "id": "5",
+      "title": "PlayStation 5 Console",
+      "description": "Experience lightning-fast loading with an ultra-high speed SSD, deeper immersion with haptic feedback, and breathtaking games.",
+      "price": 499.99,
+      "discountPercentage": 0,
+      "rating": 4.7,
+      "stock": 15,
+      "brand": "Sony",
+      "categoryId": "5",
+      "sellerId": "2",
+      "thumbnail": "/images/products/playstation-5.jpg",
+      "images": [
+        "/images/products/playstation-5-1.jpg",
+        "/images/products/playstation-5-2.jpg",
+        "/images/products/playstation-5-3.jpg"
+      ],
+      "features": [
+        "Lightning fast loading with ultra-high speed SSD",
+        "Stunning 4K graphics and ray tracing",
+        "Immersive haptic feedback and adaptive triggers",
+        "3D Audio for breathtaking sound",
+        "Backward compatible with thousands of PS4 games"
+      ],
+      "specifications": {
+        "cpu": "AMD Zen 2, 8 cores at 3.5GHz",
+        "gpu": "AMD RDNA 2, 10.28 TFLOPS",
+        "storage": "825GB SSD",
+        "resolution": "4K at 60fps, up to 120fps",
+        "discDrive": "Ultra HD Blu-ray"
+      },
+      "createdAt": "2024-01-10T08:30:00.000Z"
+    },
+    {
+      "id": "6",
+      "title": "Nike Air Zoom Pegasus 40",
+      "description": "The road running workhorse with more spring in your step, perfect for everyday runs.",
+      "price": 130,
+      "discountPercentage": 15,
+      "rating": 4.6,
+      "stock": 100,
+      "brand": "Nike",
+      "categoryId": "4",
+      "sellerId": "2",
+      "thumbnail": "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-samsung-galaxy-s25-utra_13__1.png",
+      "images": [
+        "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-samsung-galaxy-s25-utra_13__1.png",
+        "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-samsung-galaxy-s25-utra_13__1.png"
+      ],
+      "features": [
+        "Zoom Air units provide responsive cushioning",
+        "Engineered mesh upper optimizes breathability",
+        "Midfoot band adapts to your foot for a secure fit",
+        "Durable rubber outsole",
+        "Lightweight and versatile design"
+      ],
+      "specifications": {
+        "type": "Road Running Shoes",
+        "cushion": "Responsive",
+        "drop": "10mm (13mm forefoot, 23mm heel)",
+        "weight": "Men's: 10.2oz/289g, Women's: 8.3oz/235g",
+        "style": "DX5380-001"
+      },
+      "createdAt": "2024-02-05T16:20:00.000Z"
+    },
+    {
+      "id": "7",
+      "title": "Dyson Airwrap Multi-Styler Complete",
+      "description": "The complete hair styling tool for multiple hair types and styles, with Coanda airflow for curls, waves, smoothing and drying.",
+      "price": 599.99,
+      "discountPercentage": 0,
+      "rating": 4.5,
+      "stock": 30,
+      "brand": "Dyson",
+      "categoryId": "7",
+      "sellerId": "2",
+      "thumbnail": "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-samsung-galaxy-s25-utra_13__1.png",
+      "images": [
+        "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-samsung-galaxy-s25-utra_13__1.png",
+        "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-samsung-galaxy-s25-utra_13__1.png",
+        "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-samsung-galaxy-s25-utra_13__1.png"
+      ],
+      "features": [
+        "Enhanced Coanda airflow for better styling",
+        "No extreme heat damage",
+        "Multiple attachments for different styling needs",
+        "Intelligent heat control",
+        "Multiple airflow speeds and heat settings"
+      ],
+      "specifications": {
+        "power": "1300W",
+        "heatSettings": "3 precise heat settings",
+        "airflowSettings": "3 precise airflow settings",
+        "cordLength": "2.6m",
+        "filterType": "Washable filter",
+        "weight": "1.9kg"
+      },
+      "createdAt": "2024-01-25T10:10:00.000Z"
+    },
+    {
+      "id": "8",
+      "title": "LEGO Star Wars Ultimate Millennium Falcon",
+      "description": "The largest and most detailed LEGO Star Wars Millennium Falcon model with 7,541 pieces.",
+      "price": 849.99,
+      "discountPercentage": 0,
+      "rating": 4.9,
+      "stock": 10,
+      "brand": "LEGO",
+      "categoryId": "5",
+      "sellerId": "2",
+      "thumbnail": "/images/products/lego-millennium-falcon.jpg",
+      "images": [
+        "/images/products/lego-millennium-falcon-1.jpg",
+        "/images/products/lego-millennium-falcon-2.jpg",
+        "/images/products/lego-millennium-falcon-3.jpg"
+      ],
+      "features": [
+        "7,541 pieces for ultimate detail",
+        "Includes crew members from both original and sequel trilogies",
+        "Removable hull panels, lowering boarding ramp, and concealed blaster cannon",
+        "Main hold with seating area and holochess board",
+        "Incredibly detailed multilevel interior"
+      ],
+      "specifications": {
+        "pieces": "7,541",
+        "minifigures": "7 plus 2 droids",
+        "dimensions": "84 x 60 x 21 cm (built)",
+        "ageRecommendation": "16+",
+        "releaseYear": "2023"
+      },
+      "createdAt": "2024-02-28T14:30:00.000Z"
+    },
+    {
+      "id": "9",
+      "title": "Weber Genesis E-325s Gas Grill",
+      "description": "Premium three-burner gas grill with sear zone for perfect steaks and side burner for sauces and sides.",
+      "price": 979,
+      "discountPercentage": 10,
+      "rating": 4.7,
+      "stock": 20,
+      "brand": "Weber",
+      "categoryId": "3",
+      "sellerId": "2",
+      "thumbnail": "/images/products/weber-genesis.jpg",
+      "images": [
+        "/images/products/weber-genesis-1.jpg",
+        "/images/products/weber-genesis-2.jpg",
+        "/images/products/weber-genesis-3.jpg"
+      ],
+      "features": [
+        "Three high-performance burners",
+        "Sear Zone for perfect steakhouse results",
+        "Side burner for preparing sauces or sides",
+        "Extra-large prep & serve tables",
+        "Weber Connect smart technology"
+      ],
+      "specifications": {
+        "mainBurners": "3, 39,000 BTU-per-hour",
+        "sideBurner": "12,000 BTU-per-hour",
+        "cookingArea": "787 square inches total",
+        "dimensions": "62 x 29 x 47 inches",
+        "fuelType": "Propane",
+        "weight": "188 pounds"
+      },
+      "createdAt": "2024-03-10T09:45:00.000Z"
+    },
+    {
+      "id": "10",
+      "title": "Samsung 65\" QN90C Neo QLED 4K TV",
+      "description": "Experience brilliant details and color with Mini LEDs and powerful AI upscaling on this premium Samsung Neo QLED TV.",
+      "price": 2199.99,
+      "discountPercentage": 15,
+      "rating": 4.8,
+      "stock": 35,
+      "brand": "Samsung",
+      "categoryId": "1",
+      "sellerId": "2",
+      "thumbnail": "/images/products/samsung-qn90c.jpg",
+      "images": [
+        "/images/products/samsung-qn90c-1.jpg",
+        "/images/products/samsung-qn90c-2.jpg",
+        "/images/products/samsung-qn90c-3.jpg"
+      ],
+      "features": [
+        "Quantum Mini LEDs for exceptional brightness and contrast",
+        "Neo Quantum Processor 4K with AI upscaling",
+        "Anti-glare screen minimizes reflections",
+        "Ultra viewing angle for consistent color from any seat",
+        "Object Tracking Sound for immersive audio"
+      ],
+      "specifications": {
+        "resolution": "4K Ultra HD (3,840 x 2,160)",
+        "display": "Neo QLED",
+        "hdr": "Quantum HDR 48X",
+        "refresh": "120Hz",
+        "hdmiPorts": "4 HDMI ports (1 with eARC)",
+        "smartFeatures": "Tizen OS, Voice control, SmartThings"
+      },
+      "createdAt": "2024-01-15T13:20:00.000Z"
+    },
+    {
+      "id": "1742158361637",
+      "title": "WS3.2-Deadlocks Bankers Algorithm",
+      "description": "a",
+      "price": 111,
+      "discountPercentage": 10,
+      "rating": 0,
+      "stock": 110,
+      "brand": "1",
+      "categoryId": "1",
+      "sellerId": "1",
+      "thumbnail": "a",
+      "images": [
+        "a",
+        "a",
+        "a"
+      ],
+      "features": [
+        "1"
+      ],
+      "specifications": {
+        "1": "1"
+      },
+      "createdAt": "2025-03-16T20:52:41.637Z"
+    },
+    {
+      "id": "1742158573666",
+      "title": "WS3.2-Deadlocks Bankers Algorithm",
+      "description": "sadas",
+      "price": 100,
+      "discountPercentage": 10,
+      "rating": 0,
+      "stock": 10,
+      "brand": "Apple",
+      "categoryId": "4",
+      "sellerId": "2",
+      "thumbnail": "sadasd",
+      "images": [
+        "sadasd",
+        "sadasd",
+        "sadasd"
+      ],
+      "features": [],
+      "specifications": {},
+      "createdAt": "2025-03-16T20:56:13.666Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@ebay-clone.com",
+      "password": "admin123",
+      "name": "Admin User",
+      "role": "admin",
+      "avatarUrl": "/images/avatars/admin.png",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "email": "seller@ebay-clone.com",
+      "password": "seller123",
+      "name": "Seller User",
+      "role": "seller",
+      "avatarUrl": "/images/avatars/seller.png",
+      "storeInfo": {
+        "name": "Amazing Store",
+        "description": "We sell the best products",
+        "rating": 4.8,
+        "totalSales": 120
+      },
+      "createdAt": "2024-01-15T00:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "email": "buyer@ebay-clone.com",
+      "password": "buyer123",
+      "name": "Buyer User",
+      "role": "buyer",
+      "avatarUrl": "/images/avatars/buyer.png",
+      "createdAt": "2024-02-01T00:00:00.000Z"
+    },
+    {
+      "id": "1742110129977",
+      "name": "Kaito Kid",
+      "email": "kaito@gmail.com",
+      "password": "123456",
+      "role": "buyer",
+      "avatarUrl": "/images/avatars/buyer.png",
+      "createdAt": "2025-03-16T07:28:49.977Z"
+    },
+    {
+      "id": "1742151854680",
+      "name": "le van an",
+      "email": "anlvhe186705@fpt.edu.vn",
+      "password": "qIELLI2007",
+      "role": "buyer",
+      "avatarUrl": "/images/avatars/buyer.png",
+      "createdAt": "2025-03-16T19:04:14.680Z"
+    },
+    {
+      "id": "1742153013344",
+      "name": "HE186705 Le Van An",
+      "email": "anlevan001@gmail.com",
+      "password": "qielli2007",
+      "role": "buyer",
+      "avatarUrl": "/images/avatars/buyer.png",
+      "createdAt": "2025-03-16T19:23:33.344Z"
+    },
+    {
+      "id": "1742157965200",
+      "name": "HE186705",
+      "email": "anlevan@gmail.com",
+      "password": "qielli2007",
+      "role": "buyer",
+      "avatarUrl": "/images/avatars/buyer.png",
+      "createdAt": "2025-03-16T20:46:05.200Z"
+    },
+    {
+      "id": "1742158017787",
+      "name": "HE186705",
+      "email": "anlevan1@gmail.com",
+      "password": "qielli2007",
+      "role": "buyer",
+      "avatarUrl": "/images/avatars/buyer.png",
+      "createdAt": "2025-03-16T20:46:57.787Z"
+    },
+    {
+      "id": "1742162128723",
+      "name": "an",
+      "email": "anlevan10@gmail.com",
+      "password": "qielli2007",
+      "role": "buyer",
+      "avatarUrl": "/images/avatars/buyer.png",
+      "createdAt": "2025-03-16T21:55:28.723Z"
+    }
+  ]
+}
