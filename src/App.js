@@ -8,28 +8,33 @@ import "./App.css";
 import { Toaster } from "sonner";
 import DataDisplay from "@/components/DataDisplay"; // Import DataDisplay
 
-// Create a client
+// MongoDB integration
+require("dotenv").config();
+const mongoose = require("mongoose");
+
+// MongoDB connection
+const uri = process.env.MONGODB_URI;
+mongoose
+  .connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
+  .then(() => console.log("Connected to MongoDB successfully!"))
+  .catch((err) => console.error("Error connecting to MongoDB:", err));
+
+// Create a client for React Query
 const queryClient = new QueryClient();
 
 function App() {
-    return React.createElement(
-        QueryClientProvider,
-        { client: queryClient },
-        React.createElement(
-            AuthProvider,
-            null,
-            React.createElement(
-                CartProvider,
-                null,
-                React.createElement(
-                    Router,
-                    null,
-                    React.createElement(AppRoutes, null),
-                    React.createElement(DataDisplay, null), // Thêm DataDisplay
-                    React.createElement(Toaster, { position: "bottom-right" })
-                )
-            )
-        )
+    return (
+        <QueryClientProvider client={queryClient}>
+            <AuthProvider>
+                <CartProvider>
+                    <Router>
+                        <AppRoutes />
+                        <DataDisplay />
+                        <Toaster position="bottom-right" />
+                    </Router>
+                </CartProvider>
+            </AuthProvider>
+        </QueryClientProvider>
     );
 }
 
